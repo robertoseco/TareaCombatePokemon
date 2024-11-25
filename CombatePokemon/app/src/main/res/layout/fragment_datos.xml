@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/P1nombre"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/P1PS"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:hint="PS" />
+
+    <EditText
+        android:id="@+id/P1ataque"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="270dp"
+        android:hint="Ataque" />
+
+    <EditText
+        android:id="@+id/P1ataqueEspecial"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="370dp"
+        android:hint="Ataque Especial" />
+
+    <EditText
+        android:id="@+id/P1defensa"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="470dp"
+        android:hint="Defensa" />
+
+    <EditText
+        android:id="@+id/P1defensaEspecial"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="570dp"
+        android:hint="Defensa Especial" />
+
+    <EditText
+        android:id="@+id/P2nombre"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="70dp"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/P2PS"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="170dp"
+        android:hint="PS" />
+
+    <EditText
+        android:id="@+id/P2ataque"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="270dp"
+        android:hint="Ataque" />
+
+    <EditText
+        android:id="@+id/P2ataqueEspecial"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="370dp"
+        android:hint="Ataque Especial" />
+
+    <EditText
+        android:id="@+id/P2defensa"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="470dp"
+        android:hint="Defensa" />
+
+    <EditText
+        android:id="@+id/P2defensaEspecial"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="570dp"
+        android:hint="Defensa Especial" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Pokemon1"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="20dp"
+        android:text="Pokemon2"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/confirmar"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="650dp"
+        android:text="Confirmar"
+        android:textSize="15dp"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#00913f"/>
+
+</FrameLayout>

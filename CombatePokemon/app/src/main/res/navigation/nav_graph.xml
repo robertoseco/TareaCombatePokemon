@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/combate">
+
+    <fragment
+        android:id="@+id/combate"
+        android:name="com.example.combatepokemon.Combate"
+        android:label="fragment_combate"
+        tools:layout="@layout/fragment_combate" />
+    <fragment
+        android:id="@+id/movimientosFragment"
+        android:name="com.example.combatepokemon.movimientosFragment"
+        android:label="fragment_movimientos"
+        tools:layout="@layout/fragment_movimientos" />
+    <fragment
+        android:id="@+id/datosFragment"
+        android:name="com.example.combatepokemon.DatosFragment"
+        android:label="fragment_datos"
+        tools:layout="@layout/fragment_datos" />
+
+
+</navigation>

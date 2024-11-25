@@ -1,0 +1,179 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Combate">
+
+    <!-- Fondo de la batalla -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/campodebatalla"/>
+
+    <!-- Imagen de Gyarados (Pokémon P1) -->
+    <ImageView
+        android:id="@+id/gyarados"
+        android:layout_width="250dp"
+        android:layout_height="750dp"
+        android:src="@drawable/gyarados"/>
+
+    <!-- Imagen de Seviper (Pokémon P2) -->
+    <ImageView
+        android:id="@+id/seviper"
+        android:layout_width="550dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginRight="1090dp"
+        android:src="@drawable/seviper"/>
+
+    <!-- Barra de vida de Gyarados (P1) -->
+    <ProgressBar
+        android:id="@+id/VidaP1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:progress="100"
+        android:max="100"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:indeterminate="false"/>
+
+    <!-- Barra de vida de Seviper (P2) -->
+    <ProgressBar
+        android:id="@+id/VidaP2"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="20dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="100"/>
+
+    <!-- TextViews para mostrar datos del Pokémon 1 (Gyarados) -->
+
+    <TextView
+        android:id="@+id/p1NombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:hint="Nombre P1"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p1PSTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="230dp"
+        android:hint="PS P1"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p1AtaqueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="230dp"
+        android:hint="Ataque P1"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p1AtaqueEspecialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="230dp"
+        android:hint="Ataque Especial P1"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p1DefensaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="230dp"
+        android:hint="Defensa P1"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p1DefensaEspecialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="230dp"
+        android:hint="Defensa Especial P1"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <!-- TextViews para mostrar datos del Pokémon 2 (Seviper) -->
+
+    <TextView
+        android:id="@+id/p2NombreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Nombre P2"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p2PSTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:hint="PS P2"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p2AtaqueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Ataque P2"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p2AtaqueEspecialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Ataque Especial P2"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p2DefensaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Defensa P2"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+    <TextView
+        android:id="@+id/p2DefensaEspecialTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Defensa Especial P2"
+        android:textSize="18sp"
+        android:textColor="#040404"/>
+
+</FrameLayout>
